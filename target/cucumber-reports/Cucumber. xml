@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="61.773593">
+<testcase classname="ebay testing" name="Test pass" time="11.189629">
+<system-out><![CDATA[Given step without datatable................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ebay testing" name="Test pass1" time="10.108842">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)&#13;&#10;&#9;at ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:7)&#13;&#10;"><![CDATA[Given step without datatable fail...........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)
+	at ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="ebay testing" name="Test pass3" time="10.338014">
+<system-out><![CDATA[Given step without datatable................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ebay testing" name="Test pass2" time="10.05196">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)&#13;&#10;&#9;at ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:13)&#13;&#10;"><![CDATA[Given step without datatable fail...........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)
+	at ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="ebay testing" name="Test pass4" time="10.043251">
+<system-out><![CDATA[Given step without datatable................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ebay testing" name="Test pass5" time="10.041897">
+<system-out><![CDATA[Given step without datatable................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

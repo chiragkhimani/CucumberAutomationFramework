@@ -1,0 +1,278 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10182292700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test pass",
+        "description": "",
+        "id": "ebay-testing;test-pass",
+        "after": [
+          {
+            "result": {
+              "duration": 899519100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107816800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "step without datatable",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9294406400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test pass1",
+        "description": "",
+        "id": "ebay-testing;test-pass1",
+        "after": [
+          {
+            "result": {
+              "duration": 811321600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3114400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)\r\n\tat ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "step without datatable fail",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable_fail()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9323178800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Test pass3",
+        "description": "",
+        "id": "ebay-testing;test-pass3",
+        "after": [
+          {
+            "result": {
+              "duration": 1014603200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 231500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "step without datatable",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9259997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test pass2",
+        "description": "",
+        "id": "ebay-testing;test-pass2",
+        "after": [
+          {
+            "result": {
+              "duration": 791806700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156000,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.sprintqa.stepDef.DataTableExampleStep.step_without_datatable_fail(DataTableExampleStep.java:23)\r\n\tat ✽.Given step without datatable fail(src/test/resources/feature/Demo.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "step without datatable fail",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable_fail()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9243723900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Test pass4",
+        "description": "",
+        "id": "ebay-testing;test-pass4",
+        "after": [
+          {
+            "result": {
+              "duration": 799408000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "step without datatable",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9247849500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Test pass5",
+        "description": "",
+        "id": "ebay-testing;test-pass5",
+        "after": [
+          {
+            "result": {
+              "duration": 793901000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "step without datatable",
+            "match": {
+              "location": "DataTableExampleStep.step_without_datatable()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "ebay testing",
+    "description": "",
+    "id": "ebay-testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Demo.feature"
+  }
+]

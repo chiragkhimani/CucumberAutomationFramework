@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sprintqa.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.689 sec - in com.sprintqa.runner.Runner
